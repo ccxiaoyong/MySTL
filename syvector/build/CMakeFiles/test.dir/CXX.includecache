@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/MySTL/syvector/syvector.cpp
+syvector.hpp
+/home/ubuntu/MySTL/syvector/syvector.hpp
+
+/home/ubuntu/MySTL/syvector/syvector.hpp
+
