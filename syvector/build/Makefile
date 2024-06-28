@@ -123,33 +123,6 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-syvector.o: syvector.cpp.o
-
-.PHONY : syvector.o
-
-# target to build an object file
-syvector.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/syvector.cpp.o
-.PHONY : syvector.cpp.o
-
-syvector.i: syvector.cpp.i
-
-.PHONY : syvector.i
-
-# target to preprocess a source file
-syvector.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/syvector.cpp.i
-.PHONY : syvector.cpp.i
-
-syvector.s: syvector.cpp.s
-
-.PHONY : syvector.s
-
-# target to generate assembly for a file
-syvector.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/syvector.cpp.s
-.PHONY : syvector.cpp.s
-
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... syvector.o"
-	@echo "... syvector.i"
-	@echo "... syvector.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

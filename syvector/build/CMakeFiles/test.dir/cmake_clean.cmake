@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/syvector.cpp.o"
   "CMakeFiles/test.dir/test.cpp.o"
   "test"
   "test.pdb"

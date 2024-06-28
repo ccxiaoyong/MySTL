@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/MySTL/syvector/syvector.cpp
+../syvector.inl
 syvector.hpp
-/home/ubuntu/MySTL/syvector/syvector.hpp
+../syvector.hpp
 
 /home/ubuntu/MySTL/syvector/syvector.hpp
+stdexcept
+-
+syvector.inl
+-
+
+/home/ubuntu/MySTL/syvector/test.cpp
+iostream
+-
+syvector.hpp
+/home/ubuntu/MySTL/syvector/syvector.hpp
+vector
+-
 
