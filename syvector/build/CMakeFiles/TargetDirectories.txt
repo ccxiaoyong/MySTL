@@ -1,3 +1,0 @@
-/home/ubuntu/MySTL/syvector/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/MySTL/syvector/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/MySTL/syvector/build/CMakeFiles/test.dir
